@@ -9,14 +9,15 @@ And I couldn't find anything that is good and easy enough to use, so this idea g
 
 So this is the plan:
 
-1. Plugin is in a private GitHub repository
+1. Wordpress-Plugin is in a private (or public) GitHub repository
 2. You update your plugin frequently
 3. You release a new version with a [`tag`](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
-4. This script here is installed as a cronjob and checks the github api for new tags and releases an update (generates a zip file, places it somewhere your wordpress page can download it)
-5. The snippet (for your plugin) will be also here available, so your plugin know where to check for updates
+4. This script here is installed as a cronjob on your server or a local NAS and checks the GitHub API for new tags and releases an update (generates a zip file, places it somewhere your wordpress page can download it) - Maybe this would be also more comfy by using webhooks.
+5. The snippet (for your plugin) will be also here available, so your plugin know where to check for updates and where to download it
 6. And the plugin get's a classic update (like with offical plugins)
 
 # Development Progress
+- [ ] Basic Plan (Flowchart)
 - [ ] File structure
 - [ ] Cronjob
 - [ ] Adapter for GitHub
