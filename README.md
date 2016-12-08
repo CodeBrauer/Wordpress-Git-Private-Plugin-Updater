@@ -1,6 +1,10 @@
 # Wordpress-Git-Private-Plugin-Updater
 Release Wordpress private/commercial plugin updates with git.
 
+# Current state
+
+This is atm just an idea. If I have enough time and keep up with my passion I will develop this.
+
 # Intention
 
 You've invested alot of work to develop a plugin for a client or for your company. Of cause you've used git while developing this plugin. Now you've the plugin installed manually in a wordpress installation, probably version 1.0 - but there is a bug - you need to hotfix it! So just update the code, push it to your gitrepo `git commit -m"Hotfix #1"`, download the zip and install it manually? No - this is so 2009, we're living in the era where we automate everything.
